@@ -1,4 +1,4 @@
-# Banuba Web AR SDK and Agora Web SDK integration example
+# Banuba Web AR SDK and Opentok (Vonage Video) Web SDK integration example
 
 ## Requirements
 
