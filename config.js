@@ -1,18 +1,13 @@
 export const config = {
-    banubaSDK: {
-        clientToken: "PUT YOUR CLIENT TOKEN HERE",
-        locateFile: "webar"
-    },
+  banubaSDK: {
+    clientToken: "PUT YOUR CLIENT TOKEN HERE",
+  },
 
-    openTok: {
-        apiKey: '',
-        sessionID: '',
-        token: ''
-    },
+  openTok: {
+    apiKey: "",
+    sessionID: "",
+    token: "",
+  },
 
-    effects: [
-        "BackgroundPicture",
-        "Apartment",
-        "Cats"
-    ]
+  effects: ["BackgroundPicture", "Apartment", "Cats"],
 }
