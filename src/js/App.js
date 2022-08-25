@@ -4,7 +4,7 @@ import {
   Player,
   Module,
   MediaStreamCapture,
-} from "https://cdn.jsdelivr.net/npm/@banuba/webar@1.5.0-beta.12/dist/BanubaSDK.browser.esm.min.js"
+} from "https://cdn.jsdelivr.net/npm/@banuba/webar/dist/BanubaSDK.browser.esm.min.js"
 
 class App {
   constructor(options) {
@@ -28,7 +28,7 @@ class App {
       // https://docs.banuba.com/face-ar-sdk-v1/generated/typedoc/classes/Module.html
       Module.preload(
         ["face_tracker", "background"].map(
-          (m) => `https://cdn.jsdelivr.net/npm/@banuba/webar@1.5.0-beta.12/dist/modules/${m}.zip`
+          (m) => `https://cdn.jsdelivr.net/npm/@banuba/webar/dist/modules/${m}.zip`
         )
       ),
     ]).then(([player, modules]) => player.addModule(...modules).then(() => player))
